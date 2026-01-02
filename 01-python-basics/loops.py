@@ -11,3 +11,10 @@ for index, course in enumerate(courses):
 '''you can also pass the intial value of index if you want'''
 for index, course in enumerate(courses, start= 2):
     print(index, course)
+
+
+'''dictionary traversal'''
+dict_example = {'a':1, 'b':2 , 'c':3 , 'd':4, 'e':5}
+
+for key, value in  dict_example.items():
+    print(key,value)
