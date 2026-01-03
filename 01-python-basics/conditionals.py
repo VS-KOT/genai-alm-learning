@@ -17,3 +17,6 @@ list3 = list1
 
 print(list1 is list2)       #will give false
 print(list1 is list3)       #will print true
+
+#Falsy values are - 
+''''False, None, 0 (any numeric type), empty (list[], tuples[], dict {} ), empty string'''
