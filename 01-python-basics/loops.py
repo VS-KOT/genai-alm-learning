@@ -18,3 +18,10 @@ dict_example = {'a':1, 'b':2 , 'c':3 , 'd':4, 'e':5}
 
 for key, value in  dict_example.items():
     print(key,value)
+
+
+'''for - range loop - range(start value, end value(exclusive))'''
+for i in range(10):
+    print(i)
+
+'''while loop,nested loops, break and continue are same as c++'''
