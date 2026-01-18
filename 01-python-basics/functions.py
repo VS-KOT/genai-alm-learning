@@ -19,7 +19,7 @@ def student_info(*args, **kwrgs):
     
     print(kwrgs, type(kwrgs))
 
-student_info("Math", "Science", student_name = "Vinayak", Age = 22)
+student_info("Math", "Science", 44,  student_name = "Vinayak", Age = 22)   #all positional arguments must come before keyword arguments
 
 
 '''If any sequence or dictionary are passed in args/kwrgs with star(*) then those values will be passed individually '''
